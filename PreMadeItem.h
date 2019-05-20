@@ -8,7 +8,7 @@
 class PreMadeItem : public IceCreamItem{
 public:
     virtual ~PreMadeItem();
-    PreMadeItem(std::string size,std::string name);
+    PreMadeItem(std::string name,std::string size);
     virtual std::string composeItem();
     virtual double getPrice();
 private:
