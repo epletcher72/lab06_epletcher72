@@ -2,7 +2,7 @@
 using namespace std;
 PreMadeItem::~PreMadeItem() {}
 PreMadeItem::PreMadeItem(string size, string name):IceCreamItem(size) {
-    name = name;
+    this->name = name;
     if (size == "small") price = 4;
     else if (size == "medium") price = 6;
     else price = 7.5;
